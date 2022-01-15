@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     // & --> address of
-    // * --> value
+    // * --> value at
 
     int n = 8;
     int *ptr = &n;

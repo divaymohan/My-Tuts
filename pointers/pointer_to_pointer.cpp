@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     // & --> address of
-    // * --> value
+    // * --> value at
     //address of n = 100
     //address of ptr = 200
     //address of ptr2ptr = 300
@@ -23,7 +23,7 @@ int main()
     printf("Address of n using ptr:- %u\n", ptr);
     printf("Address of n using ptr2ptr:- %u\n", *ptr2ptr);
 
-    printf("Address of ptr using ptr2ptr2ptr %u\n", **ptr2ptr2ptr);
+    printf("Address of ptr using ptr2ptr2ptr %u\n", **ptr2ptr2ptr); //
     printf("Address of ptr using ptr %u\n", &ptr);
 
     return 0;
