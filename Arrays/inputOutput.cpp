@@ -4,22 +4,22 @@ using namespace std;
 
 int main()
 {
+    //read n integers from user
     int n;
     cin >> n;
 
+    //integer array
     int arr[n];
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
 
-    int sum = 0;
+    //output
     for (int i = 0; i < n; i++)
     {
-        sum = sum + arr[i];
+        cout << arr[i] << " ";
     }
-
-    cout << sum;
 
     return 0;
 }
