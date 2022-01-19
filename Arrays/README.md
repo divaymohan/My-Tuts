@@ -141,6 +141,21 @@ Explanation:
 into ascending order.
 ```
 
+## 10. Remove duplicates
+
+Given an array nums and a value val, remove all duplicates in-place and return the new length.
+
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with `O(1)` extra memory.
+
+Example:-
+
+```
+Input:
+N = 6
+arr[] = {1,1,2,3,4,4}
+Output: 4
+```
+
 ## 10. Bitonic Point
 
 Given an array arr of n elements which is first increasing and then may be decreasing, find the maximum element in the array.
