@@ -243,3 +243,34 @@ arr[] = {1,1,5}
 Output:
 arr[] = {1,5,1}
 ```
+
+## 15. First missing positive
+
+Given an unsorted integer array, find the smallest missing positive integer.
+
+Example 1:
+
+```
+Input:
+N = 3
+arr[] = {1,2,0}
+Output: 3
+```
+
+Example 2:
+
+```
+Input:
+N = 4
+arr[] = {3,4,-1,1}
+Output: 2
+```
+
+Example 3:
+
+```
+Input:
+N = 5
+arr[] = {7,8,9,11,12}
+Output: 1
+```
