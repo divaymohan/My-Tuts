@@ -143,11 +143,11 @@ into ascending order.
 
 ## 10. Remove duplicates
 
-Given an array nums and a value val, remove all duplicates in-place and return the new length.
+Given an sorted array with `n` elements, remove all duplicates in-place and return the new length.
 
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with `O(1)` extra memory.
 
-Example:-
+Example:
 
 ```
 Input:
@@ -156,7 +156,25 @@ arr[] = {1,1,2,3,4,4}
 Output: 4
 ```
 
-## 10. Bitonic Point
+## 11. Remove element
+
+Given an array and a value val, remove all instances of that value in-place and return the new length.
+
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with `O(1)` extra memory.
+
+The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+
+Example:
+
+```
+Input:
+N = 4
+arr[] = {3,2,2,3}
+val = 3
+Output: 2
+```
+
+## 12. Bitonic Point
 
 Given an array arr of n elements which is first increasing and then may be decreasing, find the maximum element in the array.
 Note: If the array is increasing then just print then last element will be the maximum value.
@@ -171,7 +189,7 @@ Output: 45
 Explanation: Maximum element is 45.
 ```
 
-## 11. Minimum Swaps
+## 13. Minimum Swaps
 
 You are given an unordered array consisting of consecutive integers [1, 2, 3, ..., n] without any duplicates. You are allowed to swap any two elements. Find the minimum number of swaps required to sort the array in ascending order.
 
