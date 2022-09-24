@@ -32,4 +32,10 @@ int countDigits(long n){
 
 ```
 
-2. Arithmatic and geometric progressions
+2. Palindrome number
+
+
+3. Factorial
+
+4. Count trailing zeros in factorial(count 5s)
+
